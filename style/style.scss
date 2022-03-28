@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 200vh;
+    width: 100%;
+    background-color: #d6d6d6;
+}
+
+.svg-container{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    .title{
+        font-family: 'Nunito';
+        font-size: 40px;
+        font-weight: 600;
+        margin: 40px;
+        letter-spacing: 2px;
+    }
+    svg{
+        width: 100%;
+        padding-top: 10%;
+        display: inline-block;
+    }
+}
